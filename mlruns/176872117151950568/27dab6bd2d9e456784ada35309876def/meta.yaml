@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/176872117151950568/27dab6bd2d9e456784ada35309876def/artifacts
+end_time: 1749321325611
+entry_point_name: ''
+experiment_id: '176872117151950568'
+lifecycle_stage: active
+run_id: 27dab6bd2d9e456784ada35309876def
+run_name: smiling-fowl-573
+run_uuid: 27dab6bd2d9e456784ada35309876def
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749321321406
+status: 3
+tags: []
+user_id: ankit

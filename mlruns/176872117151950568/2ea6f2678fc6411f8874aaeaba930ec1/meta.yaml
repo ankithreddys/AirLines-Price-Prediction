@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/176872117151950568/2ea6f2678fc6411f8874aaeaba930ec1/artifacts
+deleted_time: 1749321393769
+end_time: 1749320474502
+entry_point_name: ''
+experiment_id: '176872117151950568'
+lifecycle_stage: deleted
+run_id: 2ea6f2678fc6411f8874aaeaba930ec1
+run_name: able-hawk-679
+run_uuid: 2ea6f2678fc6411f8874aaeaba930ec1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749320444926
+status: 3
+tags: []
+user_id: ankit

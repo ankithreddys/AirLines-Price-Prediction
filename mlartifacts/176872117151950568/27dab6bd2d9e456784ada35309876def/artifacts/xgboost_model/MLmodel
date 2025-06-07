@@ -1,0 +1,38 @@
+artifact_path: xgboost_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 2.22.1
+model_size_bytes: 601245
+model_uuid: 10b7dddab01b4729a1869d2e3ab25142
+prompts: null
+run_id: 27dab6bd2d9e456784ada35309876def
+signature:
+  inputs: '[{"type": "long", "name": "Airline", "required": true}, {"type": "long",
+    "name": "Destination", "required": true}, {"type": "long", "name": "Total_Stops",
+    "required": true}, {"type": "long", "name": "Journey_day", "required": true},
+    {"type": "long", "name": "Journey_month", "required": true}, {"type": "long",
+    "name": "Dep_Time_hour", "required": true}, {"type": "long", "name": "Dep_Time_min",
+    "required": true}, {"type": "long", "name": "Arrival_Time_hour", "required": true},
+    {"type": "long", "name": "Arrival_Time_min", "required": true}, {"type": "long",
+    "name": "Duration_hours", "required": true}, {"type": "long", "name": "Duration_min",
+    "required": true}, {"type": "long", "name": "Source_Banglore", "required": true},
+    {"type": "long", "name": "Source_Kolkata", "required": true}, {"type": "long",
+    "name": "Source_Delhi", "required": true}, {"type": "long", "name": "Source_Chennai",
+    "required": true}, {"type": "long", "name": "Source_Mumbai", "required": true}]'
+  outputs: '[{"type": "long", "name": "Price", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-07 18:35:21.444471'

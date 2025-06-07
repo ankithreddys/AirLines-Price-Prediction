@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749321583690
+current_stage: None
+description: ''
+last_updated_timestamp: 1749321583690
+name: AirLine Price Prediction
+run_id: 27dab6bd2d9e456784ada35309876def
+run_link: ''
+source: mlflow-artifacts:/176872117151950568/27dab6bd2d9e456784ada35309876def/artifacts/xgboost_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/176872117151950568/27dab6bd2d9e456784ada35309876def/artifacts/xgboost_model
+user_id: null
+version: 1
